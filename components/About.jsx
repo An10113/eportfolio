@@ -1,7 +1,7 @@
 import React from "react";
 import { useTypewriter } from "react-simple-typewriter";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { BsEnvelopeFill } from "react-icons/bs";
+import { BsFileCodeFill } from "react-icons/bs";
 
 export default function About() {
   const [text] = useTypewriter({
@@ -18,11 +18,12 @@ export default function About() {
           </div>
           <div className="flex items-center justify-around p-3 my-6 md:flex-row flex-col">
             <img
+              data-aos="fade-up"
               src="/assets/picture.jpg"
               alt="about-me"
               className="w-[300px] h-[300px] rounded-full none m-5"
             />
-            <div className="max-w-[500px]">
+            <div className="max-w-[500px]" data-aos="fade-up">
               <div className="text-lg xl:text-2xl mb-5">
                 Here's a brief overview of myself.
               </div>
@@ -50,9 +51,9 @@ export default function About() {
                     <AiFillGithub color="green" size={30} />
                   </div>
                 </a>
-                <a href="" target="_blank">
+                <a href="https://drive.google.com/file/d/1sA9XKpVQZhFjby-nEBmeXY-Zg6GYVjCj/view" target="_blank">
                   <div className="w-12 h-12 cursor-pointer flex items-center justify-center">
-                    <BsEnvelopeFill color="green" size={30} />
+                    <BsFileCodeFill color="green" size={30} />
                   </div>
                 </a>
               </div>

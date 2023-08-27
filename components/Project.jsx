@@ -49,7 +49,7 @@ export default function Project() {
           </div>
           <ul className="project__list">
             {project.map(data => 
-            <li className="project" key={data.id}>
+            <li className="project" key={data.id} data-aos="zoom-in">
             <div className="project__wrapper">
               <img src={data.img} className="project__img" alt=""></img>
               <div className="project__wrapper--bg"></div>

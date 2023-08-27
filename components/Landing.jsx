@@ -11,10 +11,10 @@ const Landing = () => {
           <div className="max-w-[1000px] middle text-center">
             <BackgroundCircles />
             <div className=" max-w-500px ">
-              <h1 className="text-5xl lg:text-[64px] font-semibold">
+              <h1 className="text-5xl lg:text-[64px] font-semibold" data-aos="fade-up">
                 Xin chao, I'm <span className="text-green-700">An</span>
               </h1>
-              <p className="text-base lg:text-2xl max-w-[800px] mt-4">
+              <p className="text-base lg:text-2xl max-w-[800px] mt-4" data-aos="fade-up"  data-aos-duration="700">
                 I'm a young{" "}
                 <b className="text-green-700">Frontend Software Engineer</b>{" "}
                 with a deep enthusiasm for creating web applications that offer

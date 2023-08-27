@@ -64,7 +64,7 @@ export default function TechStack() {
         <div className="h-[100px] mt-5 md:p-4 xl:mb-5 text-center text-green-700 text-3xl lg:text-[64px]">
           {text}
         </div>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap" data-aos="fade-up">
           {techstack.map((data) => (
             <figure className="techstack__language" key={data.id}>
               <img src={data.img} alt="" />
