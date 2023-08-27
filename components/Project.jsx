@@ -49,7 +49,6 @@ export default function Project() {
           </div>
           <ul className="project__list">
             {project.map(data => 
-            <>
             <li className="project" key={data.id}>
             <div className="project__wrapper">
               <img src={data.img} className="project__img" alt=""></img>
@@ -77,7 +76,6 @@ export default function Project() {
               </div>
             </div>
           </li>
-          </>
           )}
           </ul>
         </div>
