@@ -37,7 +37,7 @@ export default function About() {
                 devise the most efficient solutions to enhance situations.
               </div>
               <div className="flex items-center">
-                <a href="" target="_blank">
+                <a href="https://www.linkedin.com/in/antranthanh/" target="_blank">
                   <div className="w-12 h-12 cursor-pointer flex items-center justify-center">
                     <AiFillLinkedin color="green" size={30} />
                   </div>

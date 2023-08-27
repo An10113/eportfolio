@@ -24,12 +24,12 @@ export default function NavBar() {
             <BsCodeSlash color="green" size={30} />
           </div>
         </a>
-        <a href="" className="hover:scale-125 transition duration-300 ease p-3">
+        <a href="#project" className="hover:scale-125 transition duration-300 ease p-3">
           <div className="w-12 h-12 cursor-pointer flex items-center justify-center">
             <AiFillProject color="green" size={30} />
           </div>
         </a>
-        <a href="" className="hover:scale-125 transition duration-300 ease p-3">
+        <a href="#contact" className="hover:scale-125 transition duration-300 ease p-3">
           <div className="w-12 h-12 cursor-pointer flex items-center justify-center">
             <BsFillEnvelopeFill color="green" size={30} />
           </div>

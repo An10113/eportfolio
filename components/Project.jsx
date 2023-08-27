@@ -10,6 +10,7 @@ export default function Project() {
   });
   const project = [
     {
+        id: 1,
         title:'JS fight game' ,
         img: "/assets/JSfighting.jpg",
         Github: "https://github.com/An10113/js-fighting-game",
@@ -19,6 +20,7 @@ export default function Project() {
         tech: 'Html, CSS, JavaScript',
     },
     {
+      id: 2,
         title:'Twitter clone' ,
         img: "/assets/twitter-clone.png",
         Github: "https://github.com/An10113/twitter-clone",
@@ -28,6 +30,7 @@ export default function Project() {
         tech: 'NextJS, JavaScript, HTML, CSS, Firebase',
     },
     {
+      id: 3,
         title:'Netflix clone' ,
         img: "/assets/netflix-clone.png",
         Github: "https://github.com/An10113/netflix-clone",
@@ -44,30 +47,30 @@ export default function Project() {
           <div className="h-[100px] md:p-4 mt-5 xl:mb-5 text-center text-green-700 text-3xl lg:text-[64px]">
             {text}
           </div>
-          <ul class="project__list">
+          <ul className="project__list">
             {project.map(data => 
             <>
-            <li class="project">
-            <div class="project__wrapper">
-              <img src={data.img} class="project__img" alt=""></img>
-              <div class="project__wrapper--bg"></div>
-              <div class="project__description left-0 ">
-                <h3 class="project__description--title xl:text-4xl md:text-xl font-bold text-xs">
+            <li className="project" key={data.id}>
+            <div className="project__wrapper">
+              <img src={data.img} className="project__img" alt=""></img>
+              <div className="project__wrapper--bg"></div>
+              <div className="project__description left-0 ">
+                <h3 className="project__description--title xl:text-4xl md:text-xl font-bold text-xs">
                   {data.title}
                 </h3>
-                <h4 class="project__description--sub-title ">
+                <h4 className="project__description--sub-title ">
                   {data.tech}
                 </h4>
-                <p class="project__description--para ">
+                <p className="project__description--para ">
                   {data.description}
                   <br />
                   {data.description2}
                 </p>
-                <div class="project__description--links ">
-                  <a href={data.Github} class="project__description--link ">
+                <div className="project__description--links ">
+                  <a href={data.Github} className="project__description--link ">
                     Github
                   </a>
-                  <a href={data.link} class="project__description--link">
+                  <a href={data.link} className="project__description--link">
                     Web 
                   </a>
                 </div>

@@ -24,8 +24,8 @@ const Landing = () => {
           </div>
         </div>
       </header>
-      <a href="#project" class="scroll sticky">
-        <div class="scroll__icon cursor-pointer"></div>
+      <a href="#project" className="scroll sticky">
+        <div className="scroll__icon cursor-pointer"></div>
       </a>
     </>
   );
