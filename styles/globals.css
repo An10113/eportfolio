@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+*{
+  scroll-behavior: smooth;
+}
+
 .middle{
     position: absolute;
     top: 50%;
