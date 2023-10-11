@@ -5,15 +5,13 @@ import { BsFileCodeFill } from "react-icons/bs";
 
 export default function About() {
   const [text] = useTypewriter({
-    words: ["<About me />"],
-    loop: true,
-    delaySpeed: 2000,
+    words: ["About me "]
   });
   return (
     <div id="about" className="bg-black bg-opacity-10">
       <div className="p-5">
         <div className="max-w-[1000px] mx-auto ">
-          <div className="h-[100px] md:p-4 mt-5 xl:mb-5 text-center text-green-700 text-3xl lg:text-[64px]">
+          <div className="md:h-[100px] md:p-4 mt-5 xl:mb-5 text-center text-[#337357] text-3xl font-bold lg:text-[64px]">
             {text}
           </div>
           <div className="flex items-center justify-around p-3 my-6 md:flex-row flex-col">
@@ -29,18 +27,18 @@ export default function About() {
               </div>
               <div className="text-lg xl:text-2xl my-3">
                 I'm a youthful{" "}
-                <span className="text-green-700">software engineer</span>{" "}
+                <span className="text-[#337357]">software engineer</span>{" "}
                 possessing an expansive expertise within the domain.
               </div>
               <div className="text-lg xl:text-2xl my-3">
                 I enjoy challenging myself to{" "}
-                <span className="text-green-700">solve problems</span> and
+                <span className="text-[#337357]">solve problems</span> and
                 devise the most efficient solutions to enhance situations.
               </div>
               <div className="flex items-center">
                 <a href="https://www.linkedin.com/in/antranthanh/" target="_blank">
                   <div className="w-12 h-12 cursor-pointer flex items-center justify-center">
-                    <AiFillLinkedin color="green" size={30} />
+                    <AiFillLinkedin color="#337357" size={30} />
                   </div>
                 </a>
                 <a
@@ -48,27 +46,15 @@ export default function About() {
                   target="_blank"
                 >
                   <div className="w-12 h-12 cursor-pointer flex items-center justify-center">
-                    <AiFillGithub color="green" size={30} />
+                    <AiFillGithub color="#337357" size={30} />
                   </div>
                 </a>
-                <a href="https://drive.google.com/file/d/1sA9XKpVQZhFjby-nEBmeXY-Zg6GYVjCj/view" target="_blank">
+                <a href="https://drive.google.com/file/d/1MTPTNp-_hXUpxHAiNcp7ZQxH5e9MPqHP/view" target="_blank">
                   <div className="w-12 h-12 cursor-pointer flex items-center justify-center">
-                    <BsFileCodeFill color="green" size={30} />
+                    <BsFileCodeFill color="#337357" size={30} />
                   </div>
                 </a>
               </div>
-              {/* <button
-                className="bg-green-700 px-5 py-2 text-lg  mr-5 text-white 
-              hover:bg-white hover:text-green-700 transition"
-              >
-                <a href="">Contact me</a>
-              </button>
-              <button
-                className="bg-green-700 px-5 py-2 text-lg  mr-5 text-white 
-              hover:bg-white hover:text-green-700 transition"
-              >
-                <a href="">Resume</a>
-              </button> */}
             </div>
           </div>
         </div>

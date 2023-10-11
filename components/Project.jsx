@@ -4,9 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 export default function Project() {
   const [text] = useTypewriter({
-    words: ["<Some of my project />"],
-    loop: true,
-    delaySpeed: 2000,
+    words: ["Some of my project"],
   });
   const project = [
     {
@@ -44,7 +42,7 @@ export default function Project() {
     <div id="project" className="bg-black bg-opacity-10">
       <div className="p-5">
         <div className="max-w-[1000px] mx-auto ">
-          <div className="h-[100px] md:p-4 mt-5 xl:mb-5 text-center text-green-700 text-3xl lg:text-[64px]">
+          <div className="h-[100px] md:p-4 mt-5 font-bold xl:mb-5 text-center text-[#337357] text-3xl lg:text-[64px]">
             {text}
           </div>
           <ul className="project__list">

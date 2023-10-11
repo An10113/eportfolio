@@ -6,9 +6,7 @@ export const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const [text] = useTypewriter({
-    words: ["<Let's connect />"],
-    loop: true,
-    delaySpeed: 2000,
+    words: ["Let's connect"],
   });
 
   const sendEmail = (e) => {
@@ -40,7 +38,7 @@ export const Contact = () => {
     <div id="contact">
       <div className="p-6">
         <div className="max-w-[1000px] mx-auto ">
-          <div className="h-[100px] md:p-4 mt-5 xl:mb-5 text-center text-green-700 text-3xl lg:text-[64px]">
+          <div className="h-[100px] md:p-4 mt-5 xl:mb-5 font-bold text-center text-[#337357] text-3xl lg:text-[64px]">
             {text}
           </div>
           {!loading ? (
@@ -51,21 +49,21 @@ export const Contact = () => {
                 onSubmit={sendEmail}
               >
                 <input
-                  className="text-sm m-4 p-1 xl:text-xl outline-1 outline-green-700 border border-gray-400 rounded-xl"
+                  className="text-sm m-4 p-1 xl:text-xl outline-1 outline-[#337357] border border-gray-400 rounded-xl"
                   name="user_name"
                   type="text"
                   required
                   placeholder="Name"
                 ></input>
                 <input
-                  className="text-sm m-4 p-1 xl:text-xl outline-1 outline-green-700 border border-gray-400 rounded-xl"
+                  className="text-sm m-4 p-1 xl:text-xl outline-1 outline-[#337357] border border-gray-400 rounded-xl"
                   name="user_email"
                   type="email"
                   required
                   placeholder="Email"
                 ></input>
                 <textarea
-                  className="text-sm p-1 h-[150px] m-4 xl:text-xl outline-1 outline-green-700 border border-gray-400 rounded-xl"
+                  className="text-sm p-1 h-[150px] m-4 xl:text-xl outline-1 outline-[#337357] border border-gray-400 rounded-xl"
                   name="message"
                   type="text"
                   required
@@ -73,8 +71,8 @@ export const Contact = () => {
                 ></textarea>
                 <button
                   id="contact__submit"
-                  className="bg-green-700 px-5 py-2 text-lg  mr-5 text-white rounded-xl
-              hover:bg-white hover:text-green-700 transition hover:border hover:border-green-700"
+                  className="bg-[#337357] px-5 py-2 text-lg  mr-5 text-white rounded-xl
+              hover:bg-white hover:text-[#337357] transition hover:border hover:border-[#337357]"
                 >
                   Send
                 </button>

@@ -2,9 +2,7 @@ import React from "react";
 import { useTypewriter } from "react-simple-typewriter";
 export default function TechStack() {
   const [text] = useTypewriter({
-    words: ["<Tech Stack />"],
-    loop: true,
-    delaySpeed: 2000,
+    words: ["Tech Stack"],
   });
   const techstack = [
     {
@@ -61,7 +59,7 @@ export default function TechStack() {
   return (
     <div id="techstack" className="p-5">
       <div className="max-w-[1000px] mx-auto ">
-        <div className="h-[100px] mt-5 md:p-4 xl:mb-5 text-center text-green-700 text-3xl lg:text-[64px]">
+        <div className="h-[100px] mt-5 md:p-4 xl:mb-5 text-center text-[#337357] font-bold text-3xl lg:text-[64px]">
           {text}
         </div>
         <div className="flex flex-wrap" data-aos="fade-up">
