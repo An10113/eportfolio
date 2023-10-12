@@ -46,7 +46,7 @@ export default function NavBar() {
           </div>
         </a>
       </div>
-      <button
+      {/* <button
         className="md:hidden flex items-center w-12 h-12"
         onClick={openMenu}
       >
@@ -62,7 +62,7 @@ export default function NavBar() {
           <a className="p-8" href="#project">Project</a>
           <a className="p-8" href="#contact">Contact</a>
         </ul>
-      </div>
+      </div> */}
     </nav>
   );
 }
