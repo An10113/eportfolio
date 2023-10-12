@@ -52,7 +52,7 @@ export default function NavBar() {
       >
         <FaBars size={30} color="#337357" />
       </button>
-      {/* <div className="menu__backdrop">
+      <div className="menu__backdrop">
         <button className="btn__menu btn__menu--close" onClick={closeMenu}>
           <FaTimes size={30} color="#337357" />
         </button>
@@ -62,7 +62,7 @@ export default function NavBar() {
           <a className="p-8" href="#project">Project</a>
           <a className="p-8" href="#contact">Contact</a>
         </ul>
-      </div> */}
+      </div>
     </nav>
   );
 }
