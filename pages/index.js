@@ -8,7 +8,7 @@ import TechStack from "@/components/TechStack";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <NavBar />
       <Landing />
       <About />
@@ -16,6 +16,6 @@ export default function Home() {
       <Project />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
