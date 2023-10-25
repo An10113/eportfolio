@@ -49,7 +49,7 @@ export default function About() {
                     <AiFillGithub color="#337357" size={30} />
                   </div>
                 </a>
-                <a href="https://drive.google.com/file/d/1MTPTNp-_hXUpxHAiNcp7ZQxH5e9MPqHP/view" target="_blank">
+                <a href="https://drive.google.com/file/d/1cpHYEgvjbnflrsmRqqvFuKw6-QWoHLiZ/view?usp=sharing" target="_blank">
                   <div className="w-12 h-12 cursor-pointer flex items-center justify-center">
                     <BsFileCodeFill color="#337357" size={30} />
                   </div>
