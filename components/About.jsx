@@ -27,8 +27,8 @@ export default function About() {
               </div>
               <div className="text-lg xl:text-2xl my-3">
                 I'm a youthful{" "}
-                <span className="text-[#337357]">software engineer</span>{" "}
-                possessing an expansive expertise within the domain.
+                <span className="text-[#337357]">Marketer</span>{" "}
+                , expertise in creating unique journey for customer.
               </div>
               <div className="text-lg xl:text-2xl my-3">
                 I enjoy challenging myself to{" "}
