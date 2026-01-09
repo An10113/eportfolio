@@ -16,9 +16,8 @@ const Landing = () => {
               </h1>
               <p className="text-base lg:text-2xl max-w-[800px] mt-4" data-aos="fade-up"  data-aos-duration="700">
                 I'm a young{" "}
-                <b className="text-[#337357]">Frontend Software Engineer</b>{" "}
-                with a deep enthusiasm for creating web applications that offer
-                exceptional user experiences.
+                <b className="text-[#337357]">Learner</b>{" "}
+                with a deep enthusiasm for creating exceptional customer experiences.
               </p>
             </div>
           </div>
