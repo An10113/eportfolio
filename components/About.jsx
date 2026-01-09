@@ -22,9 +22,6 @@ export default function About() {
               className="w-[300px] h-[300px] rounded-full none m-5"
             />
             <div className="max-w-[500px]" data-aos="fade-up">
-              <div className="text-lg xl:text-2xl mb-5">
-                Here's a brief overview of myself.
-              </div>
               <div className="text-lg xl:text-2xl my-3">
                 I'm a youthful{" "}
                 <span className="text-[#337357]">Marketer</span>{" "}
@@ -41,15 +38,7 @@ export default function About() {
                     <AiFillLinkedin color="#337357" size={30} />
                   </div>
                 </a>
-                <a
-                  href="https://github.com/An10113"
-                  target="_blank"
-                >
-                  <div className="w-12 h-12 cursor-pointer flex items-center justify-center">
-                    <AiFillGithub color="#337357" size={30} />
-                  </div>
-                </a>
-                <a href="https://drive.google.com/file/d/1cpHYEgvjbnflrsmRqqvFuKw6-QWoHLiZ/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1HFNOCxNuoaHCFZb21EKydArOeKCxMKTD/view?usp=sharing" target="_blank">
                   <div className="w-12 h-12 cursor-pointer flex items-center justify-center">
                     <BsFileCodeFill color="#337357" size={30} />
                   </div>

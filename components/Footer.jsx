@@ -11,7 +11,7 @@ function Footer() {
             <img src="./assets/letter-a.png" className="footer__logo--img" alt="" />
           </figure>
         </a>
-        <div className="footer__copyright text-white mt-5 text-center">Copyright @2023 Tran Thanh An</div>
+        <div className="footer__copyright text-white mt-5 text-center">Copyright @2026 Tran Thanh An</div>
       </div>
     </div>
   </footer>

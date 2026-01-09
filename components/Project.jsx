@@ -27,16 +27,6 @@ export default function Project() {
         description2: "This side project includes a webpage with sign-in, log-in, image uploading, tweeting, and real-time display using a Firebase database.",
         tech: 'NextJS, JavaScript, HTML, CSS, Firebase',
     },
-    {
-      id: 3,
-        title:'Netflix clone' ,
-        img: "/assets/netflix-clone.png",
-        Github: "https://github.com/An10113/netflix-clone",
-        link: "https://netflix-clone-one-lime-65.vercel.app/",
-        description:"A replication of one of the largest global platforms for streaming movies, catering to millions of users." ,
-        description2: "This secondary endeavor encompasses the fundamental aspects that define Netflix",
-        tech: 'React, Tailwind CSS, Next.JS, Prisma, MongoDB, NextAuth',
-    },
   ]
   return (
     <div id="project" className="bg-black bg-opacity-10">
@@ -75,6 +65,23 @@ export default function Project() {
             </div>
           </li>
           )}
+                      <li className="project"  data-aos="zoom-in">
+            <div className="project__wrapper">
+              <img src={"/assets/2.jpg"} className="project__img" alt=""></img>
+              <div className="project__wrapper--bg"></div>
+              <div className="project__description left-0 ">
+                <h3 className="project__description--title xl:text-4xl md:text-xl font-bold text-xs">
+                  An'Amour shop
+                </h3>
+                <h4 className="project__description--sub-title ">
+                  Seo, photography, photoshop, product design
+                </h4>
+                <p className="project__description--para ">
+                  This is a project that I worked on with two others, creating and designing product for a local store.
+                </p>
+              </div>
+            </div>
+          </li>
           </ul>
         </div>
       </div>

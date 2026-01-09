@@ -22,7 +22,7 @@ export default function NavBar() {
           className="hover:scale-110 transition duration-200 ease p-3"
         >
           <div className="text-[#337357] text-xl font-bold cursor-pointer flex items-center justify-center">
-            Tech
+            Skillset
           </div>
         </a>
         <a
